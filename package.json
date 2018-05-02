@@ -1,10 +1,11 @@
 {
-  "name": "react-redux-template",
+  "name": "react-slingshot",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "Allen Her",
   "scripts": {
     "dev": "webpack",
-    "start": "webpack-dev-server"
+    "start": "babel-node tools/srcServer.js"
   },
   "license": "ISC",
   "dependencies": {
